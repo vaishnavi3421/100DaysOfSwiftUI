@@ -22,3 +22,21 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
+struct ContentView1: View {
+    let value: String
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world from content \(value)")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView1(value: "1")
+}

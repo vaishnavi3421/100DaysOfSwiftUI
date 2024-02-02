@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            AlertAction()
+//            AlertAction()
+//            NaviStack()
+//            NaviDestination()
+            NaviDestinationForBoolean()
         }
     }
 }

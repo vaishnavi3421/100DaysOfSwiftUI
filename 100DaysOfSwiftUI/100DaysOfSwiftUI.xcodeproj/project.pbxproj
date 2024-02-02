@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F196FD22B59042300E3D660 /* AccessibilityText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F196FD12B59042300E3D660 /* AccessibilityText.swift */; };
+		5F1B5AAF2B67AEB500A8F73D /* NaviStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B5AAE2B67AEB500A8F73D /* NaviStack.swift */; };
+		5F1B5AB12B67B7BB00A8F73D /* NaviDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B5AB02B67B7BB00A8F73D /* NaviDestination.swift */; };
+		5F1B5AB32B67B8E400A8F73D /* NaviDestinationForBoolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B5AB22B67B8E400A8F73D /* NaviDestinationForBoolean.swift */; };
 		5F343A8E2B56889B0032E8A4 /* AlertActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F343A8D2B56889B0032E8A4 /* AlertActionButton.swift */; };
 		5FB02EE42B57B55F007AEACB /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB02EE32B57B55F007AEACB /* ActionSheet.swift */; };
 		5FB02EE62B57B683007AEACB /* ActionSheet2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB02EE52B57B683007AEACB /* ActionSheet2.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F196FD12B59042300E3D660 /* AccessibilityText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityText.swift; sourceTree = "<group>"; };
+		5F1B5AAE2B67AEB500A8F73D /* NaviStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviStack.swift; sourceTree = "<group>"; };
+		5F1B5AB02B67B7BB00A8F73D /* NaviDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviDestination.swift; sourceTree = "<group>"; };
+		5F1B5AB22B67B8E400A8F73D /* NaviDestinationForBoolean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviDestinationForBoolean.swift; sourceTree = "<group>"; };
 		5F343A8D2B56889B0032E8A4 /* AlertActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionButton.swift; sourceTree = "<group>"; };
 		5FB02EE32B57B55F007AEACB /* ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
 		5FB02EE52B57B683007AEACB /* ActionSheet2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet2.swift; sourceTree = "<group>"; };
@@ -40,6 +48,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F196FD02B59038F00E3D660 /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				5F196FD12B59042300E3D660 /* AccessibilityText.swift */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
+		5F1B5AAA2B67A8FD00A8F73D /* @observableObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "@observableObject";
+			sourceTree = "<group>";
+		};
+		5F1B5AAD2B67AE5E00A8F73D /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				5F1B5AAE2B67AEB500A8F73D /* NaviStack.swift */,
+				5F1B5AB02B67B7BB00A8F73D /* NaviDestination.swift */,
+				5F1B5AB22B67B8E400A8F73D /* NaviDestinationForBoolean.swift */,
+			);
+			path = NavigationStack;
+			sourceTree = "<group>";
+		};
 		5FB02EE22B57B525007AEACB /* ActionSheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +101,9 @@
 		5FFAF3662B554D7F004F9DDC /* 100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5F1B5AAD2B67AE5E00A8F73D /* NavigationStack */,
+				5F1B5AAA2B67A8FD00A8F73D /* @observableObject */,
+				5F196FD02B59038F00E3D660 /* Accessibility */,
 				5FB02EE22B57B525007AEACB /* ActionSheet */,
 				5FFAF3772B555043004F9DDC /* Alerts */,
 				5FFAF3672B554D7F004F9DDC /* SwiftUIApp.swift */,
@@ -166,7 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FFAF3762B55502A004F9DDC /* AlertAction.swift in Sources */,
+				5F196FD22B59042300E3D660 /* AccessibilityText.swift in Sources */,
 				5F343A8E2B56889B0032E8A4 /* AlertActionButton.swift in Sources */,
+				5F1B5AB32B67B8E400A8F73D /* NaviDestinationForBoolean.swift in Sources */,
+				5F1B5AB12B67B7BB00A8F73D /* NaviDestination.swift in Sources */,
+				5F1B5AAF2B67AEB500A8F73D /* NaviStack.swift in Sources */,
 				5FB02EE62B57B683007AEACB /* ActionSheet2.swift in Sources */,
 				5FFAF36A2B554D7F004F9DDC /* ContentView.swift in Sources */,
 				5FB02EE42B57B55F007AEACB /* ActionSheet.swift in Sources */,
