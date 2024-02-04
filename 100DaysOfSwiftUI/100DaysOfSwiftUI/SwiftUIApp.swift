@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-@main
-struct SwiftUIApp: App {
-    var body: some Scene {
-        WindowGroup {
-//            AlertAction()
-//            NaviStack()
-//            NaviDestination()
-            NaviDestinationForBoolean()
-        }
-    }
-}
+//@main
+//struct SwiftUIApp: App {
+//    var body: some Scene {
+//        WindowGroup {
+////            AlertAction()
+////            NaviStack()
+////            NaviDestination()
+//            NaviDestinationForBoolean()
+//        }
+//    }
+//}
