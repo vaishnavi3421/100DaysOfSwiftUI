@@ -4,6 +4,6 @@
         <page name='Strings and Characters'/>
         <page name='Tbe Basics'/>
         <page name='Control Flow'/>
-        <page name='Structure And Classes'/>
+        <page name='functions And Closure'/>
     </pages>
 </playground>
